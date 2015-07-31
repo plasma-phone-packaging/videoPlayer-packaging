@@ -1,0 +1,20 @@
+llsvplayer (0.2-3) vivid; urgency=medium
+
+  * Added qsTr to mainPage buttons
+  * Added Search on Youtube (only playback for now)
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 02 Jul 2015 15:47:22 +0000
+
+llsvplayer (0.2-2) vivid; urgency=medium
+
+  * Fixed Icon
+  * Fixed Toolbar showing back button on mainPage
+  * Added openUrl page
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 01 Jul 2015 10:56:25 +0000
+
+llsvplayer (0.2-1) vivid; urgency=low
+
+  * Initial packaging
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 29 Jun 2015  11:05:00 +0200
