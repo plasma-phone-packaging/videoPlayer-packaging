@@ -1,0 +1,25 @@
+From d81c3d8d138c47b57d1153a242d95aefdc865c61 Mon Sep 17 00:00:00 2001
+From: Bhushan Shah <bhush94@gmail.com>
+Date: Mon, 1 Aug 2016 14:26:55 +0530
+Subject: [PATCH] Use phone ui by default on phone
+
+---
+ src/org.kde.vplayer.desktop | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/org.kde.vplayer.desktop b/src/org.kde.vplayer.desktop
+index 1794c55..e4d78d5 100644
+--- a/src/org.kde.vplayer.desktop
++++ b/src/org.kde.vplayer.desktop
+@@ -3,7 +3,7 @@ Name=vPlayer
+ GenericName=Video Player
+ Comment=An simple video player application
+ Comment[de]=Eine einfache Videoplayer-Anwendung
+-Exec=vplayer %U
++Exec=vplayer --phone
+ Terminal=false
+ Type=Application
+ Categories=Qt;KDE;Multimedia;Video;
+-- 
+2.9.0
+
