@@ -1,0 +1,25 @@
+From 6932a2c40226c15d7a5187d0e14011d3a58d976c Mon Sep 17 00:00:00 2001
+From: Bhushan Shah <bhush94@gmail.com>
+Date: Sat, 10 Feb 2018 12:07:28 +0530
+Subject: [PATCH] KF5Kirigami2
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 663bb8b..37db1b0 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -10,7 +10,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_D
+ # Find packages
+ find_package(Qt5 REQUIRED NO_MODULE COMPONENTS Qml Quick Widgets Test Sql)
+ find_package(KF5 5.5 REQUIRED COMPONENTS Plasma I18n Declarative Config DBusAddons)
+-find_package(KF5Kirigami REQUIRED)
++find_package(KF5Kirigami2 REQUIRED)
+ 
+ include(FeatureSummary)
+ include(ECMAddTests)
+-- 
+2.16.1
+

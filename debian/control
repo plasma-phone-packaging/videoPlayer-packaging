@@ -5,7 +5,8 @@ Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 9), cmake (>= 2.6.2), 
  qtbase5-dev, qtdeclarative5-dev,
  plasma-framework-dev, libkf5declarative-dev, extra-cmake-modules,
- qml-module-qtquick-localstorage, qml-module-qt-labs-folderlistmodel
+ qml-module-qtquick-localstorage, qml-module-qt-labs-folderlistmodel,
+ kirigami2-dev
 Standards-Version: 3.9.3
 Homepage: https://github.com/llelectronics/videoPlayer/tree/plasma
 
