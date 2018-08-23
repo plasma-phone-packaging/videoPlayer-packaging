@@ -2,18 +2,32 @@ Source: llsvplayer
 Section: video
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
-Build-Depends: debhelper (>= 9), cmake (>= 2.6.2), 
- qtbase5-dev, qtdeclarative5-dev,
- plasma-framework-dev, libkf5declarative-dev, extra-cmake-modules,
- qml-module-qtquick-localstorage, qml-module-qt-labs-folderlistmodel,
- kirigami2-dev
-Standards-Version: 3.9.3
-Homepage: https://github.com/llelectronics/videoPlayer/tree/plasma
+Build-Depends: cmake (>= 2.6.2),
+               debhelper (>= 9),
+               extra-cmake-modules,
+               kirigami2-dev,
+               libkf5plasma-dev,
+               libkf5declarative-dev,
+               qml-module-qt-labs-folderlistmodel,
+               qml-module-qtquick-localstorage,
+               qtbase5-dev,
+               qtdeclarative5-dev
+Standards-Version: 4.1.5
+Homepage: https://github.com/JBBgameich/Kirigami-VideoPlayer
 
 Package: llsvplayer
 Architecture: any
-Depends: qml-module-qtquick-localstorage, qml-module-qt-labs-folderlistmodel, libqt5core5a, libqt5multimediaquick-p5, libqt5qml5, libqt5quick5, libqt5sql5, qml-module-qtwebkit 
-Recommends: gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly 
+Depends: libqt5core5a,
+         libqt5multimediaquick-p5,
+         libqt5qml5,
+         libqt5quick5,
+         libqt5sql5,
+         qml-module-org-kde-kirigami2,
+         qml-module-qt-labs-folderlistmodel,
+         qml-module-qtquick-controls2,
+         qml-module-qtquick-localstorage,
+         qml-module-qtwebkit
+Recommends: gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly
 Description: Simple media player based on the Gstreamer Framework and
  Plasma aswell as QtQuick.
  .

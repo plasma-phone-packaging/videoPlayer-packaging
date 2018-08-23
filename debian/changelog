@@ -1,3 +1,10 @@
+llsvplayer (0.3-1) UNRELEASED; urgency=medium
+
+  * New release
+  * Depend on Kirigami
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Thu, 16 Aug 2018 14:22:20 +0200
+
 llsvplayer (0.2-3) vivid; urgency=medium
 
   * Added qsTr to mainPage buttons
